@@ -26,7 +26,7 @@ def merge_sort(myList) -> None:
             else:
                 myList[k] = right[j]
                 j += 1
-            # Move to the next slot
+ # Move to the next slot
             k += 1
 
         # For all the remaining values
